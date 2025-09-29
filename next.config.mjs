@@ -1,3 +1,6 @@
+// Load polyfills for older Node.js versions
+import './polyfill.js';
+
 import mdx from "@next/mdx";
 
 const withMDX = mdx({
